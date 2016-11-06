@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 		perror(" Unable to open the file: ");
 	}
 	else
-		fclose(fs);
+		Fclose(fs);
 	files * fp = Fopen("demo.c", "w+");
 	if(fp == NULL) {
 		errno = EINVAL;
